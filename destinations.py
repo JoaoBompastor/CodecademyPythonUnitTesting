@@ -9,6 +9,7 @@ destination = 'HND'
 
 
 # Write your code below: 
+assert destination in destinations.keys(), 'Sorry, Small World currently does not fly to this destination!'
 
 city_name = destinations[destination]
 print('Great! Retrieving information for your flight to ...' + city_name)
